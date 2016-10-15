@@ -4,6 +4,7 @@ int main(){
 		scanf("%d",&k);
 		m=k*k;
 		b=m*k;
-		printf("%d\n%d\n",m,b);
+		printf("\n%d",m);
+		printf("\n%d",b);
 		return 0;
 }
