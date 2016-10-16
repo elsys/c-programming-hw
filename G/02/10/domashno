@@ -1,0 +1,94 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n,k,m;
+    printf("4islo");
+    scanf("%d",&n);
+    k=n*n;
+    m=n*n*n;
+    printf("\n%d",k);
+    printf("\n%d",m);
+    return 0;
+}
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float a,b,c,max;
+    printf("4islo");
+    scanf("%f",&a);
+    printf("4islo");
+    scanf("%f",&b);
+    printf("4islo");
+    scanf("%f",&c);
+    max=a;
+    if(b>a)max=b;
+    if(c>max)max=c;
+    printf("\n%f",max);
+    return 0;
+}
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a;
+    do{
+    printf("zifra");
+    scanf("%d",&a);
+    }while(a<1,a>9);
+    if(a==1)printf("one");
+    if(a==2)printf("two");
+    if(a==3)printf("three");
+    if(a==4)printf("four");
+    if(a==5)printf("five");
+    if(a==6)printf("six");
+    if(a==7)printf("seven");
+    if(a==8)printf("eight");
+    if(a==9)printf("nine");
+    return 0;
+}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char c;
+    do{
+    printf("bukva");
+    c=getchar();
+    }while(c<'a'||c>'z');
+    if(c=='a')printf("z");
+    if(c=='b')printf("y");
+    if(c=='c')printf("x");
+    if(c=='d')printf("w");
+    if(c=='e')printf("v");
+    if(c=='f')printf("u");
+    if(c=='g')printf("t");
+    if(c=='h')printf("s");
+    if(c=='i')printf("r");
+    if(c=='j')printf("q");
+    if(c=='k')printf("p");
+    if(c=='l')printf("o");
+    if(c=='m')printf("n");
+    if(c=='n')printf("m");
+    if(c=='o')printf("l");
+    if(c=='p')printf("k");
+    if(c=='q')printf("j");
+    if(c=='r')printf("i");
+    if(c=='s')printf("h");
+    if(c=='t')printf("g");
+    if(c=='u')printf("f");
+    if(c=='v')printf("e");
+    if(c=='w')printf("d");
+    if(c=='x')printf("c");
+    if(c=='y')printf("b");
+    if(c=='z')printf("a");
+
+}
+
