@@ -6,8 +6,7 @@ int cubes(int);
 int main(){
 
 	int a;
-		printf("Enter your number: \n");
-		scanf("%d",&a);
+		canf("%d",&a);
 		printf("%d\n",square(a));
 		printf("%d\n",cubes(a));
 
