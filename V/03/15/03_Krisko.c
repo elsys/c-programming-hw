@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-	int n,m,k,allmoney,sum=0,allsum=0,i,chairnodis,moneydis,moneynodis,money,times,z=1;
+	int n,m,k,allmoney,sum=0,allsum=0,i,moneydis,moneynodis,money,times,z=1;
 	float dis=0.02;
 	scanf("%d", &n);
 	scanf("%d", &m);
 	scanf("%d", &k);
 	allmoney=n*m;
 	//printf("allmoney%d\n", allmoney);
-//	alldiscount=(n/k) * 0.02;
-	chairnodis=k;
+
+	
 	moneynodis=k*m;
 	//printf("moneynodis%d\n", moneynodis);
 	moneydis=allmoney - moneynodis;
