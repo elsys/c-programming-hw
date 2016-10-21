@@ -11,8 +11,7 @@ for(int i=0;i<n;i++)
  scanf("%d",&a);  
  sum=sum+a;
 }
-avr=0;
-avr=(float)sum/n;
+(float)avr=(float)sum/n;
 printf("Sum:%d\n",sum);
 printf("Avr:%.2f\n",avr);
 return 0;
