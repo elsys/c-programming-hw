@@ -10,6 +10,6 @@ int main()
 		sum = sum + num;
 	}
 	avg = sum / n;
-	printf("Sum:%.f\nAvg:%.2f", sum , avg);
+	printf("Sum: %.f\nAvg: %.2f", sum , avg);
 	return 0;
 }
