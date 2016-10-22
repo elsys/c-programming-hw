@@ -10,6 +10,7 @@ int main()
         dels=bigN%10;
         sumd=sumd+dels;
         i++;
+        bigN=bigN/10;
     }
     dels=(float)sumd/i;
     if(dels>7.0){printf("\nheavy");}else{ printf("\nlight");}
