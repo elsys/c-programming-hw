@@ -5,7 +5,7 @@ int main()
 {
     int i,sum=0,cow,num;
     float avg;
-    do{scanf("%d",&cow);}while(i<=0);
+    do{scanf("%d",&cow);}while(cow<=0);
     for(i=0;i!=cow;i++)
     {
         scanf("\n%d",&num);
