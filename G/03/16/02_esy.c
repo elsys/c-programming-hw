@@ -3,7 +3,7 @@
 
 int main()
 {
-    unsigned int bigN,i,sumd=0;
+    int bigN,i,sumd=0;
     float dels;
     scanf("%d",&bigN);
     while(bigN>0){
