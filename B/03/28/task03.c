@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int n,m,k;
-    scanf("%d %d %d",&n,&m,&k);
-    printf("%d", n*m-(n/k)*k*2);
+    float n,m,k;
+    scanf("%f %f %f",&n,&m,&k);
+    printf("%.f", m*( ( 100*n - k*( ((n/k)*(n/k)) - (n/k) ) )/100 ));
 return 0;
 }
-
