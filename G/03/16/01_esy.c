@@ -11,7 +11,7 @@ int main()
         scanf("\n%d",&num);
         sum=sum+num;
     }
-    avg=sum/cow;
+    avg=(float)sum/cow;
     printf("\nSum: %d\nAvg: %.2f",sum,avg);
     return 0;
 }
