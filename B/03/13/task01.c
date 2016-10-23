@@ -1,16 +1,22 @@
 #include <stdio.h>
 
-int main(){
-int a,b;
-scanf("%d%d",&a,&b);
+int main()
+{
 
-int min = b;
+int n,num;
+float avg;
 
-if(a<b){ min = a; }
+ scanf("%d",&n);
 
-for(;a % min!=0 || b % min!=0; min--){}
+int i=0;
+int sum=0;
 
-printf("%d\n",min);
-
+while(n>i){
+	scanf("%d",&num);
+	sum = sum + num;
+	i++;
+}
+	avg = (float)sum/n;
+printf("Sum: %d\nAvg: %.2f\n",sum,avg);
 return 0;
 }

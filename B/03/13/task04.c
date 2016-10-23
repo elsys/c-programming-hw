@@ -1,42 +1,29 @@
 #include <stdio.h>
 
-int main()
-{
-int num, i, f, space;
+int main(){
+int i,j,k,space,num,hash=0;
 
 scanf("%d",&num);
-
-if(num<0)break;
-
 space = num - 1;
 
-for(i = 1; i <= num ; i++)
-{
-	for(f = 1; f <= space; f++)
-	printf(" ");
-		
-	space--;
-
-	for(f =1; f <= 2*i-1; f++)
-	printf("*");
-
-	printf("\n");
+for(i=1;i<num;i++){
+for(k=1;k<2*i-2;k++)hash++;
 }
-
-space = 1;
-
-for(i = 1; i <= num-1; i++)
-{
-	for(f = 1; f <= space; f++)
-	printf(" ");
-
-	space++;
-
-	for(f = 1; f <= 2*(num-i)-1; f++)
-	printf("*");
-
-	printf("\n");
-}
+printf("%d\n",hash);
+for(i=1;i<=num;i++){
+	for(j=0;j<=space;j++)printf(" ");
 	
+	space--;
+ 
+	for(k=0;k<2*i-1;k++){ 
+		if(k==0||k==2*i-2||i==num){
+		 printf("*");
+	        } else {
+		 printf("#"); 
+		}
+	}
+	printf("\n");
+  
+}
 return 0;
 }
