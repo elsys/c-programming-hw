@@ -12,6 +12,7 @@ int i=0;
 int sum=0;
 
 while(n>i){
+	
 	scanf("%d",&num);
 	sum = sum + num;
 	i++;
