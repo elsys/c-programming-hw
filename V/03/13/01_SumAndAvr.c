@@ -13,5 +13,5 @@ int main()
 	}while(i < n);
 	avr = sum / n;
 	printf("Sum: %d",sum);
-	printf("\nAvr: %.2f", avr);
+	printf("\nAvg: %.2f", avr);
 }
