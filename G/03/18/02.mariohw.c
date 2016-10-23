@@ -1,12 +1,11 @@
 #include <stdio.h>
 int main()
 {
-int n,m,i,a,sum;
+int m,i,a,sum;
 float avr;
-scanf("%d",&n);
+scanf("%d",&m);
 sum=0;
 i=0;
-m=n;
 do{
 i++;
 a=m%10;
