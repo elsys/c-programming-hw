@@ -17,6 +17,6 @@ while(n>i){
 	i++;
 }
 	avg = (float)sum/n;
-printf("Sum: %d\nAvg: %.2f\n",sum,avg);
+printf("%d\n%.2f\n",sum,avg);
 return 0;
 }
