@@ -11,7 +11,7 @@ i++;
 a=m%10;
 sum=sum+a;
 m=m/10;
-}while(m !=0);
+}while(m!=0);
 avr=sum/i;
 if(avr>7)
 {printf("heavy");}
