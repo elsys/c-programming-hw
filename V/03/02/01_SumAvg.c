@@ -16,7 +16,6 @@ int main() {
 	float avg;
 	avg=sum/num;
 
-	printf("Sum: %.2f\n", sum);
-	printf("Avg: %.2f", avg);
+	printf("Sum: %.f\n Avg: %.2f", sum, avg);
 return 0;
 }
