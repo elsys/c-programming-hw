@@ -10,7 +10,7 @@
  i++;
  m=m/10;
  }while(m>0);
- avr=sum/i;
+ avr=(float)sum/i;
  if(avr>7){printf("\n heavy");}
  else{printf("\n light");}
  return 0;
