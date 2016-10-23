@@ -8,8 +8,7 @@ space = num - 1;
 
 for(i=1;i<num;i++){
 for(k=1;k<2*i-2;k++)hash++;
-}
-	
+}	
 printf("%d\n",hash);
 for(i=1;i<=num;i++){
 	for(j=0;j<=space;j++)printf(" ");
