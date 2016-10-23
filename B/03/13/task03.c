@@ -8,6 +8,7 @@ int n,m,k,i, sum=0;
 scanf("%d",&n);
 scanf("%d",&m);
 scanf("%d",&k);
+	
 float perc = 0;
 int a = k;
 
