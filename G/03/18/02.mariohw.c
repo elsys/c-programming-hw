@@ -14,8 +14,8 @@ m=m/10;
 }while(m!=0);
 avr=sum/i;
 if(avr>7)
-{printf("heavy");}
+{printf("\n heavy");}
 else
-{printf("light");}
+{printf("\n light");}
 return 0;
 }
