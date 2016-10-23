@@ -18,5 +18,4 @@ if(avr>7)
 else
 {printf("light");}
 return 0;
-
 }
