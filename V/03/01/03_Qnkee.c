@@ -8,30 +8,25 @@ int main(){
 	chef=0;
 	hellyeah=0;
 	haveuseen=0.02;
-	i=0;
+	i=1;
 	while(i<=k){
 	hellyeah=hellyeah+m;
 	i++;
 	j++;
 	}
-
-	while(n>=j){
-		if(i<=k){
+	i=0;
+	while(j<n){
+		if(i<k){
 		chef=m-(haveuseen*m);
 		hellyeah=hellyeah+chef;
 		i++;
+		j++;
 		}
-		else if(i>k){
-		haveuseen=haveuseen+0.02;
+		else if(i==k){
 		i=0;
+		haveuseen=haveuseen+0.02;
 		}
-	j++;
 	}
-	
 	printf("%0.0f", hellyeah);
-	printf("\n%0.2f=haveuseen",haveuseen);
-	printf("\n%0.0f=chef",chef);
-
-
-return 0;
+	return 0;
 }

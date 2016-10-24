@@ -15,6 +15,5 @@ int main(){
 	else{
 	printf("light");
 }
-printf("%d",b);
 return 0;
 }
