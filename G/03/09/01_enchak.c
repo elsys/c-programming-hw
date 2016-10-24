@@ -14,6 +14,6 @@ for(int i=0;i<n;i++)
 
 avr=(float)sum/n;
 printf("Sum: %d\n",sum);
-printf("Avr: %.2f\n",avr);
+printf("Avg: %.2f\n",avr);
 return 0;
 }
