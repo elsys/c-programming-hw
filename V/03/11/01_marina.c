@@ -3,14 +3,15 @@ int main(){
 int n,i,chislo;
 float avg,sum;
 sum=0;
+i=0;
 scanf("%d",&n);
-for(i=0;i<n;i++){
+for(;i<n;i++){
 scanf("%d",&chislo);
 sum=sum+chislo;
 }
 avg=sum/n;
-printf("Sum:%.f",sum);
-printf("Avg:%.2f",avg);
+printf("\nSum:%.f",sum);
+printf("\nAvg:%.2f",avg);
 return 0;
 }
 
