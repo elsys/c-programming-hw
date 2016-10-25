@@ -2,8 +2,8 @@
 
 int main()
 
-{ int n, i, sum=0, v;
-float  avr;
+{ int n, i,  v;
+float  avr, sum;
 
 scanf("%d", &n);
 
@@ -15,8 +15,7 @@ for(i=1; i<=n; i++)
  }
 avr=sum/n;
 
-printf("Sum:%d", sum);
-printf("\nAvg:%.2f", avr);
+printf("Sum: %.0f", sum);
+printf("\nAvg: %.2f", avr);
 return 0;
 }
-
