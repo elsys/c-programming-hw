@@ -12,7 +12,7 @@ int main()
      broi=broi+1;
    }
    avg=sum/broi;
-   printf("Sum:%.f\n",sum);
-   printf("Avg:%.2f\n",avg);
+   printf("Sum: %.f\n",sum);
+   printf("Avg: %.2f\n",avg);
 
 }
