@@ -9,8 +9,8 @@ scanf("%d",&chislo);
 sum=sum+chislo;
 }
 avg=sum/n;
-printf("Sum:%.f\n",sum);
-printf("Avg:%.2f\n",avg);
+printf("Sum:%.f",sum);
+printf("Avg:%.2f",avg);
 return 0;
 }
 
