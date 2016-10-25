@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-int chislo,i,sum;
-float avg;
+int chislo,i;
+float avg,sum=0;
 scanf("%d",&chislo);
 while(chislo!=0){
 avg = chislo%10;

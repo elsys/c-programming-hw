@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-int i,n,k,m,sum=0,x,dc;
+int n,k,m,sum=0,x,dc;
 float otsipka=0.00;
 scanf("%d",&n);
 scanf("%d",&m);
