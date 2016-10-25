@@ -5,7 +5,6 @@ int main()
 
 int num,sum=0,i=0;
 
-
 	do{
 	 scanf("%d",&num);
 	}while(num<1 || num>9999);
