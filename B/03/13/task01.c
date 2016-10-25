@@ -4,6 +4,7 @@ int main()
 {
 int n,i,num,sum=0;
 float avg;
+
 	scanf("%d",&n);
 	for(i=0;i<n;i++){
 		scanf("%d",&num);

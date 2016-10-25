@@ -3,6 +3,7 @@
 int main(){
 
 int n,m,k,j,sum=0;
+
 	scanf("%d",&n);
 	scanf("%d",&m);
 	scanf("%d",&k);
