@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include<stdio.h>
 
 int main()
@@ -16,6 +16,4 @@ float avg;
 
 return 0;
 }
-=======
 
->>>>>>> 12ccc96cc7be4e8b6b2ee893ad7844b1c1c71ab3
