@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(){
-	int n,c,s,i,j,a,b;
+	int n,c,s,i,j;
 	scanf("%d",&n);
 	int br=0;
-	for(c=1;c<n;c++)
-		br=br+(c-1);
+	br=(n-2)*(n-2);
 	printf("%d\n",br);
 	for(c=1;c<n;c++){
 		s=n-c;
