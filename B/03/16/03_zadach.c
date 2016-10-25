@@ -2,7 +2,7 @@
 
 int main()
 {
-        int n, m, k, z, i, p, sum;
+        int n, m, k, i,sum;
         scanf("%d", &n);
         scanf("%d", &m);
         scanf("%d", &k);
