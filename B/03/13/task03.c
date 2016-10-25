@@ -7,6 +7,7 @@ int n,m,k,j,sum=0;
 	scanf("%d",&n);
 	scanf("%d",&m);
 	scanf("%d",&k);
+	
  float pers=0;
  int i=k;
  for(j=0;j<n;j++){
