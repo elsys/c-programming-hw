@@ -2,18 +2,18 @@
 
 int main()
 {
-	int n, a, i, sum;
-	float avr;
+	int i;
+	float avr, a, sum, n;
 	sum = 0;
 	avr = 0;
-	scanf("%d", &n);
+	scanf("%f", &n);
 	
 	for (i = 0; i < n; i ++)
 	{
-		scanf("%d", &a);
+		scanf("%f", &a);
 		sum = sum + a;
 	}
 	avr = sum / n;
-	printf("Sum: %d\n", sum);
+	printf("Sum: %.0f\n", sum);
 	printf("Avr: %.2f", avr); 
 }
