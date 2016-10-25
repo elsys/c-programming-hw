@@ -11,7 +11,6 @@ scanf("%d",&n);
 	for(j=1,j<2*i-2,j++)hash++;
  } 
 */
-
   for(i=1;i<=n-2;i++)hash=hash+2*i-1;
   printf("%d",hash);
 
