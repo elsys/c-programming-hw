@@ -8,14 +8,15 @@ float  avr;
 scanf("%d", &n);
 
 for(i=1; i<=n; i++)
-{
-scanf("%d",& v);
-sum=sum+v;
+ {
+ scanf("%d",& v);
+ sum=sum+v;
 
-}
+ }
 avr=sum/n;
-printf("%d", sum);
-printf("\n%.2f", avr);
+
+printf("Sum:%d", sum);
+printf("\nAvg:%.2f", avr);
 return 0;
 }
 
