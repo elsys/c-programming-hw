@@ -14,7 +14,7 @@ int main()
                 i++;
                 dies = dies + 2;
         }while(i < n - 2);
-
+	printf("%d", count);
 	for (i = 1; i < n; i++)
 	{
 		for (k = 1; k <= half; k++)
