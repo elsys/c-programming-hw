@@ -11,7 +11,7 @@ i++;
 avr=avr+m%10;
 m=m/10;
 }while(m>0);
-avr=avr/i;
+avr=(float)avr/i;
 if(avr>7){
 printf("heavy");
 }
