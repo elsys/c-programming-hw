@@ -2,10 +2,19 @@
 
 int main()
 {
-	int n, i, f, k, half;
-	f = 1;
-	scanf("%d", &n);
-	half = n - 1;
+	int n, i, f, k, half, count, dies ;
+        f = 1;
+        scanf("%d", &n);
+        half = n - 1;
+        count = 0;
+        dies = 1;
+        i = 0;
+        do{
+                count = count + dies;
+                i++;
+                dies = dies + 2;
+        }while(i < n - 2);
+
 	for (i = 1; i < n; i++)
 	{
 		for (k = 1; k <= half; k++)
