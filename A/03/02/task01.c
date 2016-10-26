@@ -13,8 +13,8 @@ int main(){
         sum = sum + number;
     }
 
-    printf("Sum: %d", sum);
-    printf("Avg: %.2f", (float)sum / n);
+    printf("Sum: %d\n", sum);
+    printf("Avg: %.2f\n", (float)sum / n);
 
     return 0;
 
