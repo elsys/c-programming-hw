@@ -9,7 +9,6 @@ int main() {
     count = count+1;
   }
   avg=sum/n;
-  printf("Sum: %d\n", sum);
-  printf("Avg: %.2f\n", avg);
+  printf("Sum: %d\nAvg: %.2f\n", sum, avg);
   return 0;
 }
