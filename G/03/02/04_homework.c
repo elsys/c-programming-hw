@@ -1,6 +1,6 @@
 #include <stdio.h>
-int main ()
-{   char c=' ', a= '*',b='#';
+int main (){
+    char c=' ', a= '*',b='#';
     int i, z, y, u=0,f=1,d=1,p=1;
     scanf("%d",&y);
     for(;d<y-2;d++)
