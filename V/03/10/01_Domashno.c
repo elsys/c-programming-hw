@@ -1,18 +1,16 @@
 #include<stdio.h>
 int main(){
-int n;
-float chislo,sum;
 float avg;
+float chislo,sum;
+int n,i;
 scanf("%d",&n);
-int i;
 sum=0;
-for(i=1;i<=n;i++){
+for(i=0;i<=n;i++){
 scanf("%f",&chislo);
 sum=sum+chislo;
-
 }
 avg=sum/n;
-printf("\n sum: %.0f" ,sum);
-printf("\n avg: %.2f" ,avg);
+printf("\nsum:%.0f",sum);
+printf("\navg:%.2f",avg);
 return 0;
 }
