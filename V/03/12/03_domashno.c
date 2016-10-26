@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
 int n,k,i=0,b,c,e=0;
@@ -22,5 +21,5 @@ while(e<n){
         }
 }
 printf("\n %f",o);
-    return 0;
+return 0;
 }
