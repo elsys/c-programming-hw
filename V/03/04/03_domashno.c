@@ -2,20 +2,20 @@
 
 int main()
 {
-int m,k,n,sum=0;
-
-scanf("%d",&n);
-scanf("%d",&m);
-scanf("%d",&k);
-
-while(n>k){
-sum=sum+k*m;
-n=n-k;
-m=m*0.98;
+int n, count;
+float avg;
+scanf("%d", &n);
+for(count=0;n>0;count++)
+{
+avg=avg+n%10;
+n=n/10;
 }
-sum=sum+k*m;
 
-printf("%d",sum);
+avg=avg/count;
 
+if(avg<7)
+printf("light");
+else
+printf("heavy");
 return 0;
 }
