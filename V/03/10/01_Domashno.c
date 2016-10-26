@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main(){
-int i,n;
-float chislo,sum=0;
+int n;
+float chislo,sum;
 float avg;
 scanf("%d",&n);
+int i;
+sum=0;
 for(i=1;i<=n;i++){
 scanf("%f",&chislo);
 sum=sum+chislo;

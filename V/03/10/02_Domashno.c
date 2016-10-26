@@ -1,17 +1,16 @@
 #include<stdio.h>
+
 int main(){
-int chislo,i;
-float avg,sum=0;
-scanf("%d",&chislo);
-while(chislo!=0){
-avg = chislo%10;
-sum=sum+avg;
-chislo=chislo/10;
+int n,i=0;
+float avg=0;
+scanf("%d", &n);
+while(n!=0){
+avg+=n%10;
+n/=10;
 i++;
 }
-avg=sum/i;
-if(avg>=7){ printf("heavy");}
-else{ printf("light");
-}
+avg/=i;
+if(avg>7) printf("heavy");
+else printf("light");
 return 0;
 }
