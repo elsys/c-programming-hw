@@ -4,7 +4,6 @@ int main(){
     int n;
     int number;
     int sum;
-    float average;
 
     scanf("%d", &n);
 
@@ -14,10 +13,8 @@ int main(){
         sum = sum + number;
     }
 
-    average = sum / n;
-
     printf("Sum: %d", sum);
-    printf("Avg: %.2f", average);
+    printf("Avg: %.2f", (float)sum / n);
 
     return 0;
 
