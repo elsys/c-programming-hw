@@ -2,8 +2,8 @@
 
 int main()
 {
-    int sum = 0, a, i;
-    float avg, n;
+    int sum = 0, a, i, n;
+    float avg;
 
     scanf("%f", &n);
 
@@ -12,8 +12,9 @@ int main()
             sum += a;
         }
 
-    avg = sum / n;
+    avg = (float)sum / n;
 
     printf("Sum: %d \n", sum);
     printf("Avg: %.2f \n", avg);
+    return 0;
 }
