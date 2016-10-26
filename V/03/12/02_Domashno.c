@@ -1,23 +1,21 @@
 #include <stdio.h>
-
 int main()
 {
-int a,b,c,i=0;
-float d=0;
+int a,b,c,i=0,d;
 scanf("%d",&a);
 b=a;
 while(b>0){
-    c=b%10;
-    b=b/10;
-    d=d+c;
-    i++;
+c=b%10;
+b=b/10;
+d=d+c;
+i++;
 }
 d=d/i;
 if(d>7){
-    printf("heavy");
+printf("heavy");
 }
 else{
-    printf("light");
+printf("light");
 }
-    return 0;
+return 0;
 }
