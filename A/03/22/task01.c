@@ -8,7 +8,7 @@ int main() {
     sum = sum + a;
     count = count+1;
   }
-  avg=sum/n;
+  avg=(float)sum/n;
   printf("Sum: %d\n", sum);
   printf("Avg: %.2f\n", avg);
   return 0;
