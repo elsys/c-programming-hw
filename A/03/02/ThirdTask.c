@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-const float INCREASE = 0.02f;
-
 int main(){
     int n; 
     int m; 
@@ -11,17 +9,16 @@ int main(){
     scanf("%d", &m);
     scanf("%d", &k);
 
-    float discount = 0.0f;
-    int total = 0, b = k, price;
+    float discount = 0.0;
+    int total = 0, b = k;
 
     for(int i = 0; i < n; i++){
         if(i == k){
-            discount += INCREASE;
+            discount += 0.02;
             k += b;
         }
 
-    price = m - (discount * m);
-    total += price;
+        total += m - (discount * m);
 
     }
     
