@@ -3,16 +3,13 @@
 int main(){
     int n;
     int sum = 0;
-    int ld;
     int length = 0;
     float avg;
 
     scanf("%d", &n);
 
     while(n > 0){
-        ld = n % 10;
-
-        sum += ld;
+        sum += n % 10;
 
         length++;
         
