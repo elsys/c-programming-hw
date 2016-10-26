@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main()
 {
-int n,q,a,sum;
-float avr;
+int q,a;
+float avr,n,sum;
 q=0;
 sum=0;
 scanf("%d",&a);
 do{
-scanf("%d",&n);
+scanf("%f",&n);
 q++;
 sum=sum+n;
   }
 while(a>q);
-avr=sum/n;
+avr=(float)sum/(float)a;
 printf("Sum: %.0f\n", sum);
-printf("Avr: %.2f\n", avr);
+printf("Avg: %.2f\n", avr);
 
 
 
