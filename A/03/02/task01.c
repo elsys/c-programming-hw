@@ -3,7 +3,7 @@
 int main(){
     int n;
     int number;
-    int sum;
+    float sum;
 
     scanf("%d", &n);
 
@@ -14,7 +14,7 @@ int main(){
     }
 
     printf("Sum: %d", sum);
-    printf("Avg: %.2f", (float)sum / n);
+    printf("Avg: %.2f", sum / n);
 
     return 0;
 
