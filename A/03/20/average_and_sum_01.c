@@ -5,7 +5,7 @@ int main()
     int sum = 0, a, i, n;
     float avg;
 
-    scanf("%f", &n);
+    scanf("%d", &n);
 
         for (i = 1; i<=n; i++){
             scanf("%d", &a);
