@@ -1,0 +1,41 @@
+#include<stdio.h>
+int main()
+{
+  int a,s,i,j,q;
+  scanf("%d",&a);
+  i=0;
+  s=a-2;
+  printf("%d",s*s);
+  s=a;
+  while(i<=a)
+  {i++;
+  s--;
+  printf("\n");
+  j=s;
+  while(j>=1)
+    {printf(" ");
+    j--}
+  if(i==1)
+  printf("*");
+  else 
+  if(i==a)
+    {j=a*2-1;
+    while(j>=1)
+      {printf("*");
+      j--;
+      break;}
+      }
+  else 
+    {printf("*");
+    i--;
+    q=0;
+    j=i*2-1;
+    while(j>=1)
+      {printf("#");
+      j--;
+      q++;}
+      i++;
+    printf("*");}
+  }
+  printf("\n%d",q);
+}
