@@ -2,16 +2,19 @@
 #include <stdlib.h>
 int main()
 {
-float sredno=0;
-int i=0,n;
-scanf("%d",&n);
-while(n!=0){
-sredno=sredno+n%10;
-n=n/10;
-n=n+1;
+int i, c=0, br, avg=0;
+while(br<1||br>9999);)
+{
+scanf("%d",&br);
 }
-sredno=sredno/i;
-if (avr<7) printf("light");
-if (avr>7) printf("heavy");
+while(br>0)
+{
+i=br%10;
+avg=avg+i;
+br=br/10;
+c=c+1;
+}
+if(avg / c >= 7) printf("heavy");
+if(avg /c<=7) printf("light");    
 return 0;
 }
