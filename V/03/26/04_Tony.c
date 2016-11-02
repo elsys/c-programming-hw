@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main()
 {
-int a,b,g,j,t,n=1,l,p=0, c=1;;
+int a,b,c=1,g,j,t,n=1,l,p=0;
 scanf("%d",&l);
-	if(l<3)
+	if(a<3)
 	{	
 	n=0;
 	}
 	else
 	{
-for(b=1;b<=l-2;b++)
+for(b=1;b<=a-2;b++)
 {
 	l=n;
-	while(a>0)
+	while(l>0)
 	{
 	p++;
 	l--;
@@ -21,8 +21,8 @@ for(b=1;b<=l-2;b++)
 }
 	}
 	printf("%d\n",p);
-	j=l-1;
-		for(b=1;b<=l;b++)
+	j=a-1;
+		for(b=1;b<=a;b++)
 		{
 		g=c;
 		t=j;
@@ -33,7 +33,7 @@ for(b=1;b<=l-2;b++)
 		}
 		while(g>0)
 		{
-		if(b!=l)			{
+		if(b!=a)			{
 	if(g==c||g==1)
 	{
 	printf("*");
