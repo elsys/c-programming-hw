@@ -3,16 +3,16 @@
 
 int main(){
 
-long n,i,mass[n];
+int n,mass[n],i;
 
-scanf("%li",&n);
+scanf("%d",&n);
 i=0;
-while(i<=n){
+while(i<n){
 i++;
-scanf("%li",&mass[i]);
-}i=n+1;
-while(i>0){
-printf("%li\n",mass[i]);
-i--;}
+scanf("%d",&mass[i]);
+}
+while(n>0){
+printf("%d\n",mass[n]);
+n--;}
 return 0;
 }
