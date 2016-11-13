@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
- 
-int n,mass[n],i;
- 
+int n,i;
 scanf("%d",&n);
- i=0;
+int mass[n];
+i=0;
 while(i<n){
- i++;
 scanf("%d",&mass[i]);
+i++;
+}i=n-1;
+while(i>=0){
+printf("%d\n",mass[i]);
+i--;
 }
-while(n>0){
-printf("%d\n",mass[n]);
-n--;}
- return 0;
+return 0;
 }
