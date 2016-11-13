@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-int i,n,r,b,m;
-do{scanf("%d",&n);}while(n<=0);
+int i,n,r,b;
+scanf("%d",&n);
 int a[n];
 for(i=0;i<n;i++)
 {do{scanf("%d",&a[i]);}while(a[i]%2==0);}
