@@ -10,7 +10,7 @@ r=n-1;
 if(n%2!=0){ printf("\n %d",a[n/2]);}
 else{for(i=0;i<n/2;i++)
 {b=a[i]-a[r];
-printf("\n%d",b);
+printf("%d\n",b);
 r--;
 }
 }
