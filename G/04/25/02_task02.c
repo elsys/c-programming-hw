@@ -7,11 +7,12 @@ int a[n];
 for(i=0;i<n;i++)
 {do{scanf("%d",&a[i]);}while(a[i]%2==0);}
 r=n-1;
-m=n/2;
-if(n%2!=0){ printf("\n %d",a[m]);}
-else{for(i=0;i<m;i++)
+if(n%2!=0){ printf("\n %d",a[n/2]);}
+else{for(i=0;i<n/2;i++)
 {b=a[i]-a[r];
 printf("\n%d",b);
-r--;}}
+r--;
+}
+}
 return 0;
 }
