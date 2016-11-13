@@ -17,7 +17,7 @@ if(y==0)j++;
 }
 n=j;
 printf("%d\n",n);
-for(j=0;j<;j++)
+for(j=0;j<n;j++)
 {
 c=a[j];
 d=a[j];
@@ -25,7 +25,6 @@ w=0;
 while(d-n>=0){d=d-n; w++;}
 c=a[j]-w*n;
 h=c+h;
-j
 }
 printf("%.3f\n",h);
 return 0;
