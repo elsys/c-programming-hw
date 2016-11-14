@@ -15,7 +15,7 @@ for(i=0;i<n;){
    }
 }
    
-for(i0;i<n/2;i++){
+for(i=0;i<n/2;i++){
    printf("%d\n",(odds[i]-odds[n-i-1]));
  }
 
