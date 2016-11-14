@@ -40,7 +40,7 @@ int main()
     else{
     do{
         sum=arr[i]-arr[n-1];
-        printf("\n%d", sum);
+        printf("%d\n", sum);
         n--;
       i++;
     }while(n>i);
