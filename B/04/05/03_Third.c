@@ -135,6 +135,10 @@ int main()
         if(o>0){
         printf("\no - %d",o);
     };
+        if(p>0){
+        printf("\np - %d",p);
+    };
+    
         if(q>0){
         printf("\nq - %d",q);
     };
