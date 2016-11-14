@@ -3,15 +3,11 @@
 int main(){
 int i,n,a,x,z;
 float mass[64],m,b,f,p;
-i=0;
-f=0;
-do{
-x=0;
-a=0;
+i=0;f=0;
+do{x=0;a=0;
 while(a<i){
 a++;
-if(mass[a]==m){x=1;
-}
+if(mass[a]==m){x=1;}
 }
 mass[i]=m;
 if(x==0)i++;}
