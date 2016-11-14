@@ -9,7 +9,7 @@ int odds[100];
 scanf("%d",&n);
 
 do{
-scanf("%d",o);
+scanf("%d",&o);
    if(o%2!=0){
      odds[i]=o;
      i++;
