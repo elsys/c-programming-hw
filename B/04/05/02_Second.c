@@ -25,12 +25,12 @@ int main()
    if(n%2!=0){
         do{
     if(n-1==check){
-    printf("\n%d",arr[check]);
+    printf("%d\n",arr[check]);
     ch++;
     }
     else{
     sum=arr[i]-arr[n-1];
-    printf("\n%d", sum);
+    printf("%d\n", sum);
     }
     n--;
     i++;
