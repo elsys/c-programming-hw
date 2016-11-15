@@ -2,7 +2,7 @@
 
 int main()
 {
-	int e, i = 0, k = 0, tmp;
+	int e, i = 0, k = 0, tmp, m;
 	scanf("%d", &e);
 	int mas[e];
 	while(i < e)
