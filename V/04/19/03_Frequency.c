@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	int n,i;
+	int i;
 	int mas[26];
  	char str[1000];
 	fgets (str,1000,stdin);
