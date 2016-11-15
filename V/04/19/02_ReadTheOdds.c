@@ -2,26 +2,27 @@
 
 int main()
 {
-	int e, i = 0, k = 0, tmp = e - 1;
+	int e, i = 0, k = 0, tmp;
 	scanf("%d", &e);
-	int a[e];
-	if(e%2 != 0)
+	int mas[e];
+	while(i < e)
         {
-                printf("%d\n", a[e/2]);
-        }
-	while(k < e)
-	{
-		while(a[k]%2 == 0)
+                scanf("%d", &m);
+		if(m%2 == 1)
 		{
-			scanf("%d", &a[k]);
+			mas[i] = m;
+			i++;
 		}
-		k++;
-	}
-	for(k = 0; k < e/2; k++)
+        }
+	while(k < e/2)
 	{
-		i = a[k] - a[tmp];
-		printf("%d\n", i);
-		tmp--;
-	}
+                tmp = mas[k]-mas[e-k-1];
+                printf("%d\n", tmp);
+                if(e%2!=0)
+                {
+                        printf("%d",mas[e/2]);
+                }
+                k++;
+        }
 	return 0;
 }
