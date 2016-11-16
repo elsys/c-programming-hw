@@ -17,7 +17,7 @@ if(str[p]==malki[n]||str[p]==glavni[n])
 i++;
 }
 if(p==strlen(str)-2 && i>0)
-printf("%c-%d\n",malki[n],i);
+printf("%c - %d\n",malki[n],i);
 }
 return 0;
 }
