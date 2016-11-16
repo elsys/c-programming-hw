@@ -1,31 +1,26 @@
 #include <stdio.h>
-int main()
+int main ()
 {
-float a[64],b,c,d,h=0;
-int i,n,j,y,w;
-while((scanf("%f",&b))!=EOF)
+int d=0,i,j,c,b=0;
+float f,a[64],s=0,e;
+scanf("%f",&f);
+for(i=0;f!=EOF;i++)
 {
-y=0;
-i=0;
+for(j=0;j<64;j++)
+if(a[j]==f){break;}
+else{d++;}
+if(d==64){a[b]=f;b++;}
+d=0;
+}
+printf("%d",b);
+j=0;
 do
 {
-if(a[i]==b){y=1;}
-i++;
-}while(i<j);
-a[j]=b;
-if(y==0)j++;
-}
-n=j;
-printf("%d\n",n);
-for(j=0;j<n;j++)
-{
-c=a[j];
-d=a[j];
-w=0;
-while(d-n>=0){d=d-n; w++;}
-c=a[j]-w*n;
-h=c+h;
-}
-printf("%.3f\n",h);
+c=a[j]/b;
+e=a[j]-c*b;
+s=s+e;
+j++;
+}while(j<b);
+printf("\n%.3f",s);
 return 0;
 }
