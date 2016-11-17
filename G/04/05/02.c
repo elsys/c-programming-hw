@@ -12,4 +12,5 @@ int n,a,i,j,arr[n];
 	for (i=0,j=n-1;j>i;i++,j--){printf("%d\n",arr[i]-arr[j]);}
 		if (i==j)
 	        printf("%d\n",arr[i]);
+return 0;
 }
