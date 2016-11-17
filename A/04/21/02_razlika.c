@@ -15,7 +15,7 @@ int main()
     }while(i!=k);
     if(k%2==0)a[k]=a[i-1];
     i=0;
-    if(k%2!=0)k=k-1;
+    k=k-1;
     do{
 
         if(i<k)l=a[i]-a[k];
