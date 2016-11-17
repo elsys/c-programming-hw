@@ -8,7 +8,7 @@ int main(){
 	d=d/10;
 	c++;
 	}
-	for(int lul=0;num>0;){
+	for(;num>0;){
 		b+=num%10;
 		num=num/10;
 	}
