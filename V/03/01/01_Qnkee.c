@@ -13,8 +13,8 @@ int main(){
 	sum +=a;
 	j++;
 	}while(j<i);
-	printf("\nSum:%0.0f",sum);
+	printf("\nSum: %0.0f",sum);
 	avg=sum/i;
-	printf("\nAvg:%0.2f",avg);
+	printf("\nAvg: %0.2f",avg);
 return 0;
 }

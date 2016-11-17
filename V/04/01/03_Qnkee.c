@@ -12,7 +12,7 @@
 			}
 			}
 			if(i2>0){
-			printf("\n%c-%d",'a'+i1,i2);
+			printf("\n%c - %d",'a'+i1,i2);
 			}
 		}
 	

@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 	int main(){
-	int i=1,solo=0,j=1,only;
+	int i=1,solo=0,j=1,only=0;
 	float lul[64];
-	float n,extra;
+	float n,extra=0;
 	while(scanf("%f",&n)!=EOF){
 		solo=0;
 		j=i;
@@ -21,9 +20,10 @@
 		i++;
 	}
 	printf("\n%d",only);
-	for(j=0;j<i;j++){
-		extra=extra+fmod(lul[j],solo);
+	extra=0;
+	for(j=0;j<=i;j++){
+		extra=extra+fmod(lul[j],only);
 	}
-	printf("\n%0.3f",extra);
+	printf("\n%.3f",extra);
 	return 0;
 	}

@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 	int n,m,k,i,j=0;
-	float chef,haveuseen,hellyeah,chef1;
+	float chef,haveuseen,hellyeah;
 	scanf("%d",&n);
 	scanf("%d",&m);
 	scanf("%d",&k);

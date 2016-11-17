@@ -1,19 +1,22 @@
 #include <stdio.h>
 int main(){
-	int num,b,c,j=0;
+	int num,c,d,b;
 	scanf("%d",&num);
 	c=0;
-	while(num>0){
-	c=num%10;
-	b=b+c;
-	num=num/10;
-	j++;
+	d=num;
+	while(d>0){
+	d=d/10;
+	c++;
 	}
-	if(b>8){
-	printf("heavy");
+	for(int lul=0;num>0;){
+		b+=num%10;
+		num=num/10;
+	}
+	if(b/c<8){
+	printf("light");
 	}
 	else{
-	printf("light");
+	printf("heavy");
 }
 return 0;
 }
