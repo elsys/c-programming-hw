@@ -20,7 +20,7 @@ int main()
    }
 	printf("%d",i);
    for(l=0;l<i;l++){
-    printf("\n%f",a[l]);
+
 	sum=sum+fmod(a[l],i);
 	}
 	printf("\n%.3f",sum);
