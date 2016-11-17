@@ -19,7 +19,7 @@
 		}
 		i++;
 	}
-	printf("\n%d",only);
+	printf("%d",only);
 	extra=0;
 	for(j=0;j<=i;j++){
 		extra=extra+fmod(lul[j],only);
