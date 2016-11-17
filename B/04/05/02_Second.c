@@ -2,47 +2,43 @@
 #include <stdlib.h>
 
 int main()
-{   int n;
-    scanf("%d", &n);
-    int arr[n],a,i,br,sum,ch;
-    int check;
-    ch=0;
-    check=(n/2);
+{
+    int n,i,m,sum,k;
     i=0;
-    br=0;
-
+    sum=0;
+    scanf("%d",&n);
+    k=n-1;
+    int arr[n];
     do{
-        scanf("%d", &a);
-        if(a%2!=0){
-         arr[i]=a;
-         br++;
-         i++;
+        scanf("%d",&m );
+        if(m%2!=0){
+            arr[i]=m;
+            i++;
         }
 
-
-    }while(br<n);
+    }while(i<n);
     i=0;
-   if(n%2!=0){
-        do{
-    if(n-1==check){
-    printf("%d\n",arr[check]);
-    ch++;
-    }
-    else{
-    sum=arr[i]-arr[n-1];
-    printf("%d\n", sum);
-    }
-    n--;
-    i++;
-
-    }while(ch==0);
-   }
-    else{
+    if(n%2==0){
     do{
         sum=arr[i]-arr[n-1];
-        printf("%d\n", sum);
         n--;
-      i++;
+        i++;
+        printf("%d\n", sum);
     }while(n>i);
-   }
+    }
+    else {
+        do{
+
+        sum=arr[i]-arr[k];
+        k--;
+        i++;
+        printf("%d\n", sum);
+        if(k==i){
+            printf("%d", arr[i]);
+            break;
+        }
+        }while(k>=n);
+    }
+
 }
+
