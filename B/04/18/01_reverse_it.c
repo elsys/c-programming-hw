@@ -2,7 +2,7 @@
 int main ()
 {
 	int n,p;
-	int a[n];
+	int a[100];
 	scanf("%d",&n);
 
 	p=0;
