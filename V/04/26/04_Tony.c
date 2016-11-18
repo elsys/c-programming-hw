@@ -7,8 +7,7 @@ int main()
     while(scanf("%f",&arr[a])!=EOF)
 	{
         int b=1;
-	int j=1;
-        for(j;j<a;j++)
+        for(int j=1;j<a;j++)
 	{
             if(arr[j]==arr[a])
 		{
@@ -20,8 +19,7 @@ int main()
             a++;
         }
     	}
-	int k=0;
-    		for(k;k<a;k++)
+    		for(int k=1;k<a;k++)
 		{
        		 float n=arr[k];
        		 if(n>=a)

@@ -6,7 +6,7 @@ int main()
     	int a,len;
     	int arr[26];
 	fgets(string,1000,stdin);
- 	len=strlen(str);
+ 	len=strlen(string);
     	for(a=0;a<26;a++)
 		 arr[a]=0;
     	for(a=0;a<len;a++)
