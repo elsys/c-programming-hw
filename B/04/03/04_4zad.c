@@ -3,7 +3,7 @@
 int main()
 {
 
-        float a[64] = {0}, n, s, k;
+        float a[64] = {0}, n, s;
         int br, i, c, poop;
         s = 0;
         i = 0;
