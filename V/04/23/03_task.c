@@ -10,7 +10,6 @@ int main()
 		charCount[i] = 0;
 	}
 
-	printf("Vavedete izrechenie\n");
 	fgets(sentence, 1001, stdin);
 
     i=0;
@@ -30,7 +29,7 @@ int main()
 		i++;
 	}
 
-	printf("Sreshtat se slednite bukvi\n");
+
 	for (i = 0; i < 26; i++)
 	{
 		if (charCount[i] != 0)
