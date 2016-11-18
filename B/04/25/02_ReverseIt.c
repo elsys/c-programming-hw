@@ -5,7 +5,7 @@ int main(){
 	int i[n], eq=0;
 	while(a<n){
 		scanf("%d", &i[a]);
-		if(i[lol]%2!=0)a++;
+		if(i[a]%2!=0)a++;
 	}
 	if(n%2==0){
 		for(a=0;a<n/2;a++){
