@@ -168,5 +168,4 @@ int main()
         printf("\nz - %d",z);
     }
 
-
 }
