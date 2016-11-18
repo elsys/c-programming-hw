@@ -1,24 +1,29 @@
 #include<stdio.h>
-int main(){
-	int n, a=0;
-	scanf("%d", &n);
-	int i[n], eq=0;
-	while(a<n){
-		scanf("%d", &i[a]);
-		if(i[a]%2!=0)a++;
+#include<string.h>
+
+int main()
+{
+	int i, a, b=0;
+	char j[1000];
+	fgets(j,1000,stdin);
+	for(a=0;a<26;a++)
+	{
+		for(i=0;i<strlen(j);i++)
+		{
+			if(j[i]>='A'&&j[i]<='Z')
+			{
+				j[i]=j[i]-('A'-'a');
+			}
+			if(j[i]=='a'+a)
+			{
+				b++;
+			}
+		}
+		if(b!=0)
+	{
+		printf("%c - %d\n", 'a'+a, b);
 	}
-	if(n%2==0){
-		for(a=0;a<n/2;a++){
-			eq=i[a]-i[(n-1)-a];
-			printf("%d\n", eq);
-		}
-	}else{
-		n--;
-		for(a=0;a<n/2;a++){
-			eq=i[a]-i[n-a];
-			printf("%d\n", eq);
-		}
-		printf("%d", i[a]);
+		b=0;
 	}
 	return 0;
 }
