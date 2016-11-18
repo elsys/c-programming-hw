@@ -20,7 +20,7 @@ int main()
    	for(a=0;a<26;a++)
     	{
         	if(arr[a]!=0)
-			printf("%c-%d\n",a+97,arr[a]);
+			printf("%c - %d\n",a+97,arr[a]);
     	}
 
  
