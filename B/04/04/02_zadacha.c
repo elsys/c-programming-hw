@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int n,i,chislotovmomenta,sum,w;
+	int n,i,sum,w;
 	scanf("%d", &n);
 
 
