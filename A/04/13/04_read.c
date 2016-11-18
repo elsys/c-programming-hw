@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-        float num,a;
+        float num,a,sum;
         float arr[64];
         int i=0,f=0,j;
-        float sum;
         while(scanf("%f",&num)!=EOF){
                 f=0;
-            
                 for(j=0;j<sizeof(arr);j++){
                         if(arr[j]==num)
                                 f=1;}
