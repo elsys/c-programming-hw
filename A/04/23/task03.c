@@ -6,7 +6,7 @@ int main(){
 	char n[1000],b='A',a='a';
 	fgets(n, 1000, stdin);
 	while(d<26){
-		while(n[i]!=NULL){
+		while(n[i]!='\0'){
 			if(n[i]==a || n[i]==b)c++;
 			i++;
 		}
