@@ -19,26 +19,30 @@ int main()
     }while(i<n);
     i=0;
     if(n%2==0){
-    do{
+    for(;n>i;){
         sum=arr[i]-arr[n-1];
         n--;
         i++;
         printf("%d\n", sum);
-    }while(n>i);
+    }
     }
     else {
-        do{
+        for(i=0;k>=i;)
+        {
+          if(k==i){
+            printf("%d", arr[i]);
+            break;
+          }
 
         sum=arr[i]-arr[k];
         k--;
         i++;
         printf("%d\n", sum);
-        if(k==i){
-            printf("%d\n", arr[i]);
-            break;
         }
-        }while(k>=n);
-    }
-
+        }
 }
+
+
+
+
 
