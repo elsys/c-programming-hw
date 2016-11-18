@@ -29,10 +29,10 @@ int main()
        b++;
        if (num == 0)
        {
-           printf("%d\n",chisla[(n/2)]);
+           printf("\n%d",chisla[(n/2)]);
            break;
        }
-       else printf("%d\n",num);
+       else printf("\n%d",num);
        i--;
         last--;
     }
