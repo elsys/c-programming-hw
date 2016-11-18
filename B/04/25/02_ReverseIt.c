@@ -1,29 +1,33 @@
 #include<stdio.h>
-#include<string.h>
 
 int main()
 {
-	int i, a, b=0;
-	char j[1000];
-	fgets(j,1000,stdin);
-	for(a=0;a<26;a++)
+	int n, brr=0;
+	scanf("%d", &n);
+	int arr[n], sum=0;
+	while(brr<n)
 	{
-		for(i=0;i<strlen(j);i++)
-		{
-			if(j[i]>='A'&&j[i]<='Z')
-			{
-				j[i]=j[i]-('A'-'a');
-			}
-			if(j[i]=='a'+a)
-			{
-				b++;
-			}
-		}
-		if(b!=0)
-	{
-		printf("%c - %d\n", 'a'+a, b);
+		scanf("%d", &arr[brr]);
+		if(arr[brr]%2!=0)
+		brr++;
 	}
-		b=0;
+	if(n%2==0)
+	{
+		for(brr=0;brr<n/2;brr++)
+		{
+			sum=arr[brr]-arr[(n-1)-brr];
+			printf("%d\n", sum);
+		}
+	}
+	else
+	{
+		n--;
+		for(brr=0;brr<n/2;brr++)
+		{
+			sum=arr[brr]-arr[n-brr];
+			printf("%d\n", sum);
+		}
+		printf("%d\n", arr[brr]);
 	}
 	return 0;
 }
