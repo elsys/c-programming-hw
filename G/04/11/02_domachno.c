@@ -2,9 +2,8 @@
  #include <stdlib.h>
  int main() {
  int n,i,a;
- do {scanf("%d",&n);
-} while(n<=0);
-int dodo[n];
+ scanf("%d",&n);
+ int dodo[n];
  i=0;
  while(i<n) { scanf("%d",&a);
               if(a%2!=0) { dodo[i]=a;
