@@ -6,7 +6,6 @@ int main()
     char str[1001];
     int arr[26] = {0};
     int i = 0;
-    int n;
 
     fgets(str, 1000, stdin);
 
