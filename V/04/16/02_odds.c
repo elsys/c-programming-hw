@@ -4,11 +4,12 @@
 
 int main()
 {
-    int chisla[600];
+   
     int n,i,num,b,last;
     b = 0;
     i = 0;
     scanf("%d",&n);
+    int chisla[n];
     while( i < n)
     {
         scanf("%d",&num);
