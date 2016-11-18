@@ -2,8 +2,8 @@
 #include<string.h>
 int main()
 { 
-  int i,k=0,l=0,br=1,pro=0,c=0,swap2,a=0,s=0,g,broi[1000],h=0;
-  char masiv[1000],bukwa,minala,help,swap,mass[1000];
+  int i,l=0,br=1,pro=0,c=0,swap2,a=0,s=0,g,broi[1000],h=0;
+  char masiv[1000],bukwa,swap,mass[1000];
   fgets(masiv,1000,stdin);
   l=strlen(masiv);
   for(i=0;i<l;i++)
