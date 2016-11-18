@@ -93,7 +93,7 @@ int main()
 
 
     if(a>0){
-        printf("a - %d",a);
+        printf("\na - %d",a);
     };
     if(b>0){
         printf("\nb - %d",b);
