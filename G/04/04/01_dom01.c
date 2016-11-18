@@ -3,9 +3,9 @@ int main()
 {
 int broi,br;
 int mas[broi];
-do
-{scanf("%d", &broi);
-}while(br>0);
+
+scanf("%d", &broi);
+
 for(br=1;br<=broi;br++)
 {
 scanf("%d", &mas[br]);
