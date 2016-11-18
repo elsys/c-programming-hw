@@ -1,33 +1,34 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <string.h>
 
 int main()
 {
-	int n, brr=0;
-	scanf("%d", &n);
-	int arr[n], sum=0;
-	while(brr<n)
+	char snts[1000];
+	int alph[26]={0},i=0;	
+	fgets(snts,1000,stdin);
+	while(snts[i]!='\0') 
 	{
-		scanf("%d", &arr[brr]);
-		if(arr[brr]%2!=0)
-		brr++;
-	}
-	if(n%2==0)
-	{
-		for(brr=0;brr<n/2;brr++)
+	        if(snts[i]>='A'&&snts[i]<='Z') 
 		{
-			sum=arr[brr]-arr[(n-1)-brr];
-			printf("%d\n", sum);
-		}
+        		snts[i]=snts[i]+32;
+        	}
+       		i++;
 	}
-	else
+	i=0;
+	while(snts[i]!='\0')
 	{
-		n--;
-		for(brr=0;brr<n/2;brr++)
+	        if(snts[i]>='a'&&snts[i]<='z')
 		{
-			sum=arr[brr]-arr[n-brr];
-			printf("%d\n", sum);
-		}
-		printf("%d\n", arr[brr]);
+	            alph[snts[i]-'a']++;
+	        }
+        i++;
 	}
-	return 0;
+	for(i=0;i<26;i++)
+	{
+        if(alph[i]!=0)
+	{
+            printf("%c - %d\n",i+'a',alph[i]);
+        }
+    }
+    return 0;
 }
