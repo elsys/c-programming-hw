@@ -6,7 +6,6 @@ int main()
 int i=0;
 int cnt[256];   
 char shot[1000];
-char p=0;
 /*while(p != '\n')    
     {
         p = getchar();
