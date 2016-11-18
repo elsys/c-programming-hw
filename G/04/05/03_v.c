@@ -11,6 +11,6 @@ int main()
        if (string[i] >='A' && string[i]<='Z') { bukvi[string[i]-65]++; }
        i++;
      }while(string[i] !='\0');
-  for (i=0;i<26;i++) { if (bukvi[i] != 0) { printf("%c-%d\n",i+'a',bukvi[i]); }
+  for (i=0;i<26;i++) { if (bukvi[i] != 0) { printf("%c - %d\n",i+'a',bukvi[i]); }
 		      }
 return 0; }
