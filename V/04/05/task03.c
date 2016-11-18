@@ -5,7 +5,7 @@ int main()
 {
 
 	char snts[1000];
-	int alph[26],i;
+	int alph[26]={0},i=0;
 	
 	fgets(snts,1000,stdin);
 
