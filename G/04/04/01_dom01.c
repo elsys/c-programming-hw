@@ -6,13 +6,13 @@ int mas[broi];
 
 scanf("%d", &broi);
 
-for(br=1;br<=broi;br++)
+for(br=0;br<broi;br++)
 {
-scanf("%d", &mas[br]);
+scanf("%d",&mas[br]);
 }
-for(br=broi;br>0;br--)
+for(br=broi-1;br>=0;br--)
 {
-printf("%d\n", mas[br]);
+printf("%d\n",mas[br]);
 }
 return 0;
 }
