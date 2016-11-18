@@ -1,14 +1,24 @@
-#include <stdio.h>
-
-int main()
-{
-	int n,i,arr[n];
+#include<stdio.h>
+int main(){
+	int n, a=0;
 	scanf("%d", &n);
-	for(i = 0; i < n; i++){
-		scanf("%d", &arr[i]);
+	int i[n], eq=0;
+	while(a<n){
+		scanf("%d", &i[a]);
+		if(i[lol]%2!=0)a++;
 	}
-	for(i = n - 1; i >= 0; i--){
-		printf("%d\n", arr[i]);
+	if(n%2==0){
+		for(a=0;a<n/2;a++){
+			eq=i[a]-i[(n-1)-a];
+			printf("%d\n", eq);
+		}
+	}else{
+		n--;
+		for(a=0;a<n/2;a++){
+			eq=i[a]-i[n-a];
+			printf("%d\n", eq);
+		}
+		printf("%d", i[a]);
 	}
 	return 0;
 }
