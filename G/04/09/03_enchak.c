@@ -4,33 +4,28 @@
 int main()
 {
 int i=0;
-int cnt[256];   //masiv s broqchi
+int cnt[256];   
 char shot[1000];
 char p=0;
-//printf("enter sentence:");
-//scanf("%s",shot);
-//s=gets(shot);
-while(p != '\n')    // terminates if user hit enter
+/*while(p != '\n')    
     {
         p = getchar();
         shot[i] = p;
         i++;
     }
-    shot[i] = '\0';       
+    shot[i] = '\0';*/
+fgets(shot,1000,stdin);       
 for(i=0;i<256;i++)
 {
 cnt[i]=0;
-//printf("%d -- %c\n",i,i);
 }
 
 
 
 for(i=0;i<strlen(shot);i++)
 {
-//printf("%c\n",shot[i]);
 if((shot[i]>='A')&&(shot[i]<='Z'))
 {
-//printf("> %c\n",shot[i]+('a'-'A'));
 (cnt[shot[i]+('a'-'A')])++;
 }
 else{  
