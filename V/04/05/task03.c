@@ -35,7 +35,7 @@ int main()
 	{
         if(alph[i]!=0)
 	{
-            printf("%c-%d\n",i+'a',alph[i]);
+            printf("%c - %d\n",i+'a',alph[i]);
         }
     }
     return 0;
