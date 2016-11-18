@@ -34,7 +34,7 @@ int main()
         i++;
         printf("%d\n", sum);
         if(k==i){
-            printf("%d", arr[i]);
+            printf("%d\n", arr[i]);
             break;
         }
         }while(k>=n);
