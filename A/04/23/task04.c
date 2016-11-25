@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main(){
-	int b=0,d=0,a=0,i=0,e;
-	float c,n[64],s,m;
+	int b=0,d=0,i=0;
+	float c,n[64];
 	while(!feof(stdin)){
 		scanf("%f",&c);
 		while(b<=i){
