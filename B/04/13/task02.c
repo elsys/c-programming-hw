@@ -2,25 +2,26 @@
 
 int main()
 {
-int n,o=0,i=1;
+int n,i,j;
 
-int read[100];
 int odds[100];
 
 scanf("%d",&n);
-
+i=0;
 do{
-
-scanf("%d",&read[o]);
-if(read[o]%2!=0){odds[n-i]=read[o];i++;}o++;
-}while(i<=n);
-o=1;
-do{
-printf("%d\n",odds[n-o]-odds[o-1]);
-o++;
-}while(n/2>o-1);
-
-if(n%2!=0)printf("%d\n",odds[n/2]);
-   
+ if(i!=n){ scanf("%d",&odds[i]);
+ if(odds[i]%2!=0){i++; j=i;}
+//  printf("i%d\n",i);
+ }else{
+  if(n%2!=0){
+   printf("%d\n",odds[n-j]-odds[j-1]);j--;
+   }else{
+   printf("%d\n",odds[n+1]);
+  }
+  n=n/2;
+  i=i/2;
+  // printf("j%d\n",j);
+  }
+ }while(i<n||j>0);   
 return 0;
 }
