@@ -17,7 +17,7 @@ int main()
                                 i++;
                         }
                 }
-                for(i = 0; i <= n / 2; i++)
+                for(i = 0; i < n / 2; i++)
                 {
                         printf("%d\n", arr[i] - arr[(n - i) - 1]);
                 }
