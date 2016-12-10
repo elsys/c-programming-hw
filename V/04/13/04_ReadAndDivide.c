@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <math.h>
+#define n 64
 
 int main()
 {
 	int i, c;
-	float sum = 0, nums[64];
+	float sum = 0, nums[n];
 
-	while(i < 64)
+	while(i < n)
 	{
-		while(scanf("%f", nums[i] != EOF))
+		while(scanf("%f", &nums) != EOF)
 		{
 			c = i - 1;
 			while(c >= 0)
@@ -30,5 +31,5 @@ int main()
 		sum = sum + fmod(nums[i], i);
 		i++;
 	}
-	printf("\n%.3f", sum);
+	printf("%d\n%.3f",i , sum);
 }

@@ -10,7 +10,7 @@ int main()
 	{
 		if(stc[i] >= 'A' && stc[i] <= 'Z')
 		{
-			freq[input[i] - 'A']++;
+			freq[stc[i] - 'A']++;
 	        }
 		if(stc[i] >= 'a' && stc[i] <= 'z')
 		{

@@ -37,6 +37,6 @@ int main()
                 {
                         printf("%d\n", arr[i] - arr[(n - i) - 1]);
                 }
-                printf("middle -> %d\n", arr[n / 2]);
+                printf("%d", arr[n / 2]);
         }
 }		
